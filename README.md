@@ -1,5 +1,13 @@
 # MyAnimeList - Web Scraping
-This project aims to collect the top animes according to myanimelist through Web Scraping
+O objetivo desse projeto é coletar os 600 melhores animes de acordo com o MyAnimeList. A extração desses dados ocorrou através de Web Scraping, nome dado ao processo de coleta de dados estruturados da web de maneira automatizada. Por fim, a linguagem utilizada foi Python.
 
-## Results
-Through the Beautiful Soup and Pandas libraries, it was possible to collect and store in a csv file the data referring to the top animes according to myanimelist on 09/11/2021
+## Bibliotecas Utilizadas
+
+  * pandas
+  * numpy
+  * BeautifulSoup
+  * requests
+  * time
+
+## Resultado
+Por meio das bibliotecas Beautiful Soup e Pandas foi possível coletar e armazenar no arquivo animes_mal.csv as informações referentes ao top 600 animes conforme o MyAnimeList na data 09/11/2021.
